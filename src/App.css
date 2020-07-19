@@ -1,0 +1,89 @@
+.App {
+  text-align: left;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: calc(40px + 2vmin);
+  font-weight: bolder;
+  color: purple;
+  width: 900px;
+  background-color: whitesmoke;
+  text-shadow: 1px 2px 7px #555;
+  
+}
+.Root {
+line-height: 0px;padding: 5px;
+background-color: rebeccapurple;
+border-radius: 15px;
+-moz-border-radius: 15px;
+}
+.App-logo {
+  height: 6vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rowC{display:flex; flex-direction:row;line-height: 0px;padding: 5px;border-radius: 15px;-moz-border-radius: 15px;justify-content: center;}
+.colC{display:flex; flex-direction:column;line-height: 0px;padding: 5px;border-radius: 15px;-moz-border-radius: 15px;justify-content: center;}
+.h2{text-align: center;font-family: Calibri;font-weight:normal; font-size: 30px;}
+.smallbox
+{
+width: 900px;
+height: 485px;
+padding: 0px;
+border: 1px groove grey;
+border-radius: 15px;
+-moz-border-radius: 15px;
+background-color: white;
+}
+.medbox
+{
+width: 900px;
+height: 420px;
+padding: 0px;
+border: 1px groove grey;
+border-radius: 15px;
+-moz-border-radius: 15px;
+background-color: white;
+}
+.bigbox
+{
+width: 900px;
+height: 890px;
+padding: 10px;
+border: 1px groove grey;
+border-radius: 15px;
+-moz-border-radius: 15px;
+background-color: white;
+}
