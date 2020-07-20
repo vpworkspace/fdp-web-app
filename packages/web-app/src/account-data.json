@@ -1,0 +1,208 @@
+{
+    "Data": {
+        "Account": [
+            {
+                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Jag Bhanot",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "5000001234560201",
+                        "Name": "Savings Account - RBS - Sydney"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "Amount": {
+                            "Amount": "125680.92",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": []
+            },
+{
+                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Sukhram Bharti",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "5000001234560202",
+                        "Name": "Savings Account - RBS - Sydney"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "Amount": {
+                            "Amount": "125680.92",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": []
+            },
+{
+                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Vivek Pradhan",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "5000001234560203",
+                        "Name": "Savings Account - RBS - Sydney"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "Amount": {
+                            "Amount": "125680.92",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": []
+            },
+{
+                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Akhil Munjal",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "5000001234560204",
+                        "Name": "Savings Account - RBS - Sydney"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "Amount": {
+                            "Amount": "125680.92",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": []
+            },
+            {
+                "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "SavingsAccount",
+                "Description": "Personal",
+                "Nickname": "Yogesh A",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "5000001234560105",
+                        "Name": "Debit Account - RBS - Sydney"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2020-07-19T07:56:13.187Z",
+                        "Amount": {
+                            "Amount": "18481.13",
+                            "Currency": "GBP"
+                        }
+                    },
+                    {
+                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimBooked",
+                        "DateTime": "2020-07-19T07:56:13.187Z",
+                        "Amount": {
+                            "Amount": "18481.13",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": [
+                    {
+                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "Frequency": "EvryWorkgDay",
+                        "Reference": "Ref2",
+                        "FirstPaymentDateTime": "2018-02-01T00:00:00.000Z",
+                        "NextPaymentDateTime": "2019-03-06T00:00:00.000Z",
+                        "FinalPaymentDateTime": "2020-02-01T00:00:00.000Z",
+                        "StandingOrderStatusCode": "Active",
+                        "FirstPaymentAmount": {
+                            "Amount": "56.45",
+                            "Currency": "GBP"
+                        },
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "FinalPaymentAmount": {
+                            "Amount": "78.33",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "93134999999999",
+                            "Name": "Account name 2"
+                        }
+                    },
+                    {
+                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "Frequency": "EvryDay",
+                        "NextPaymentDateTime": "2019-02-24T00:00:00.000Z",
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "80540122222222"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "Links": {
+        "Self": "https://ob.rbs.useinfinite.io/open-banking/v3.1/aisp/accounts",
+        "First": null,
+        "Prev": null,
+        "Next": null,
+        "Last": null
+    },
+    "Meta": {
+        "TotalPages": 1,
+        "FirstAvailableDateTime": null,
+        "LastAvailableDateTime": null
+    }
+}
