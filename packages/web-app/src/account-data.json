@@ -2,160 +2,126 @@
     "Data": {
         "Account": [
             {
-                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                "AccountId": "2e3d72d8-48f2-4ed3-b6fe-fa2a1aa9d2eb",
                 "Currency": "GBP",
                 "AccountType": "Personal",
                 "AccountSubType": "CurrentAccount",
                 "Description": "Personal",
-                "Nickname": "Jag Bhanot",
+                "Nickname": "Loan Account - Ulster - John Smith",
                 "Account": [
                     {
                         "SchemeName": "UK.OBIE.SortCodeAccountNumber",
-                        "Identification": "5000001234560201",
-                        "Name": "Savings Account - RBS - Sydney"
+                        "Identification": "50000012345602",
+                        "Name": "Loan Account - Ulster - John Smith"
                     }
                 ],
                 "balances": [
                     {
-                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
+                        "AccountId": "2e3d72d8-48f2-4ed3-b6fe-fa2a1aa9d2eb",
                         "CreditDebitIndicator": "Credit",
                         "Type": "InterimAvailable",
-                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "DateTime": "2020-07-20T04:58:58.066Z",
                         "Amount": {
-                            "Amount": "125680.92",
-                            "Currency": "GBP"
-                        }
-                    }
-                ],
-                "StandingOrder": []
-            },
-{
-                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
-                "Currency": "GBP",
-                "AccountType": "Personal",
-                "AccountSubType": "CurrentAccount",
-                "Description": "Personal",
-                "Nickname": "Sukhram Bharti",
-                "Account": [
-                    {
-                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
-                        "Identification": "5000001234560202",
-                        "Name": "Savings Account - RBS - Sydney"
-                    }
-                ],
-                "balances": [
-                    {
-                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
-                        "CreditDebitIndicator": "Credit",
-                        "Type": "InterimAvailable",
-                        "DateTime": "2018-10-01T02:59:00.000Z",
-                        "Amount": {
-                            "Amount": "125680.92",
-                            "Currency": "GBP"
-                        }
-                    }
-                ],
-                "StandingOrder": []
-            },
-{
-                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
-                "Currency": "GBP",
-                "AccountType": "Personal",
-                "AccountSubType": "CurrentAccount",
-                "Description": "Personal",
-                "Nickname": "Vivek Pradhan",
-                "Account": [
-                    {
-                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
-                        "Identification": "5000001234560203",
-                        "Name": "Savings Account - RBS - Sydney"
-                    }
-                ],
-                "balances": [
-                    {
-                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
-                        "CreditDebitIndicator": "Credit",
-                        "Type": "InterimAvailable",
-                        "DateTime": "2018-10-01T02:59:00.000Z",
-                        "Amount": {
-                            "Amount": "125680.92",
-                            "Currency": "GBP"
-                        }
-                    }
-                ],
-                "StandingOrder": []
-            },
-{
-                "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
-                "Currency": "GBP",
-                "AccountType": "Personal",
-                "AccountSubType": "CurrentAccount",
-                "Description": "Personal",
-                "Nickname": "Akhil Munjal",
-                "Account": [
-                    {
-                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
-                        "Identification": "5000001234560204",
-                        "Name": "Savings Account - RBS - Sydney"
-                    }
-                ],
-                "balances": [
-                    {
-                        "AccountId": "73ed7853-f027-46df-b24d-b171c005fde5",
-                        "CreditDebitIndicator": "Credit",
-                        "Type": "InterimAvailable",
-                        "DateTime": "2018-10-01T02:59:00.000Z",
-                        "Amount": {
-                            "Amount": "125680.92",
-                            "Currency": "GBP"
-                        }
-                    }
-                ],
-                "StandingOrder": []
-            },
-            {
-                "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
-                "Currency": "GBP",
-                "AccountType": "Personal",
-                "AccountSubType": "SavingsAccount",
-                "Description": "Personal",
-                "Nickname": "Yogesh A",
-                "Account": [
-                    {
-                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
-                        "Identification": "5000001234560105",
-                        "Name": "Debit Account - RBS - Sydney"
-                    }
-                ],
-                "balances": [
-                    {
-                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
-                        "CreditDebitIndicator": "Credit",
-                        "Type": "InterimAvailable",
-                        "DateTime": "2020-07-19T07:56:13.187Z",
-                        "Amount": {
-                            "Amount": "18481.13",
+                            "Amount": "119646.66",
                             "Currency": "GBP"
                         }
                     },
                     {
-                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "AccountId": "2e3d72d8-48f2-4ed3-b6fe-fa2a1aa9d2eb",
                         "CreditDebitIndicator": "Credit",
                         "Type": "InterimBooked",
-                        "DateTime": "2020-07-19T07:56:13.187Z",
+                        "DateTime": "2020-07-20T04:58:58.066Z",
                         "Amount": {
-                            "Amount": "18481.13",
+                            "Amount": "119646.66",
                             "Currency": "GBP"
                         }
                     }
                 ],
                 "StandingOrder": [
                     {
-                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "AccountId": "2e3d72d8-48f2-4ed3-b6fe-fa2a1aa9d2eb",
+                        "Frequency": "EvryDay",
+                        "NextPaymentDateTime": "2019-02-02T00:00:00.000Z",
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "80540122222222"
+                        }
+                    },
+                    {
+                        "AccountId": "2e3d72d8-48f2-4ed3-b6fe-fa2a1aa9d2eb",
                         "Frequency": "EvryWorkgDay",
                         "Reference": "Ref2",
                         "FirstPaymentDateTime": "2018-02-01T00:00:00.000Z",
-                        "NextPaymentDateTime": "2019-03-06T00:00:00.000Z",
+                        "NextPaymentDateTime": "2019-02-04T00:00:00.000Z",
+                        "FinalPaymentDateTime": "2020-02-01T00:00:00.000Z",
+                        "StandingOrderStatusCode": "Active",
+                        "FirstPaymentAmount": {
+                            "Amount": "56.45",
+                            "Currency": "GBP"
+                        },
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "FinalPaymentAmount": {
+                            "Amount": "78.33",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "93134999999999",
+                            "Name": "Account name 2"
+                        }
+                    }
+                ]
+            },
+            {
+                "AccountId": "2ee73351-0410-4ce1-94c1-efd6fe5e256c",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Credit Account - NatWest - John Smith",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "50000012345601",
+                        "Name": "Credit Account - NatWest - John Smith"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "2ee73351-0410-4ce1-94c1-efd6fe5e256c",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2020-07-20T04:58:58.038Z",
+                        "Amount": {
+                            "Amount": "19646.25",
+                            "Currency": "GBP"
+                        }
+                    },
+                    {
+                        "AccountId": "2ee73351-0410-4ce1-94c1-efd6fe5e256c",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimBooked",
+                        "DateTime": "2020-07-20T04:58:58.038Z",
+                        "Amount": {
+                            "Amount": "19646.25",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": [
+                    {
+                        "AccountId": "2ee73351-0410-4ce1-94c1-efd6fe5e256c",
+                        "Frequency": "EvryWorkgDay",
+                        "Reference": "Ref2",
+                        "FirstPaymentDateTime": "2018-02-01T00:00:00.000Z",
+                        "NextPaymentDateTime": "2019-02-04T00:00:00.000Z",
                         "FinalPaymentDateTime": "2020-02-01T00:00:00.000Z",
                         "StandingOrderStatusCode": "Active",
                         "FirstPaymentAmount": {
@@ -177,9 +143,9 @@
                         }
                     },
                     {
-                        "AccountId": "c1d8820d-f79b-4763-b36a-f8563f58f24f",
+                        "AccountId": "2ee73351-0410-4ce1-94c1-efd6fe5e256c",
                         "Frequency": "EvryDay",
-                        "NextPaymentDateTime": "2019-02-24T00:00:00.000Z",
+                        "NextPaymentDateTime": "2019-02-02T00:00:00.000Z",
                         "NextPaymentAmount": {
                             "Amount": "26.48",
                             "Currency": "GBP"
@@ -190,6 +156,200 @@
                         }
                     }
                 ]
+            },
+            {
+                "AccountId": "3cc1577d-939e-4b5b-84db-556de04b72f2",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Mortgages Account - RBS - John Smith",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "50000012345603",
+                        "Name": "Mortgages Account - RBS - John Smith"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "3cc1577d-939e-4b5b-84db-556de04b72f2",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2020-07-20T04:58:58.117Z",
+                        "Amount": {
+                            "Amount": "1451646.25",
+                            "Currency": "GBP"
+                        }
+                    },
+                    {
+                        "AccountId": "3cc1577d-939e-4b5b-84db-556de04b72f2",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimBooked",
+                        "DateTime": "2020-07-20T04:58:58.117Z",
+                        "Amount": {
+                            "Amount": "1451646.25",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": [
+                    {
+                        "AccountId": "3cc1577d-939e-4b5b-84db-556de04b72f2",
+                        "Frequency": "EvryDay",
+                        "NextPaymentDateTime": "2019-02-02T00:00:00.000Z",
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "80540122222222"
+                        }
+                    },
+                    {
+                        "AccountId": "3cc1577d-939e-4b5b-84db-556de04b72f2",
+                        "Frequency": "EvryWorkgDay",
+                        "Reference": "Ref2",
+                        "FirstPaymentDateTime": "2018-02-01T00:00:00.000Z",
+                        "NextPaymentDateTime": "2019-02-04T00:00:00.000Z",
+                        "FinalPaymentDateTime": "2020-02-01T00:00:00.000Z",
+                        "StandingOrderStatusCode": "Active",
+                        "FirstPaymentAmount": {
+                            "Amount": "56.45",
+                            "Currency": "GBP"
+                        },
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "FinalPaymentAmount": {
+                            "Amount": "78.33",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "93134999999999",
+                            "Name": "Account name 2"
+                        }
+                    }
+                ]
+            },
+            {
+                "AccountId": "9b4aa9cc-a799-4bcd-a5d4-3f54dbf613aa",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Savings Account - Barclays - John Smith",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "50000012345604",
+                        "Name": "Savings Account - Barclays - John Smith"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "9b4aa9cc-a799-4bcd-a5d4-3f54dbf613aa",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2020-07-20T04:58:58.152Z",
+                        "Amount": {
+                            "Amount": "9647.53",
+                            "Currency": "GBP"
+                        }
+                    },
+                    {
+                        "AccountId": "9b4aa9cc-a799-4bcd-a5d4-3f54dbf613aa",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimBooked",
+                        "DateTime": "2020-07-20T04:58:58.152Z",
+                        "Amount": {
+                            "Amount": "9647.53",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": [
+                    {
+                        "AccountId": "9b4aa9cc-a799-4bcd-a5d4-3f54dbf613aa",
+                        "Frequency": "EvryDay",
+                        "NextPaymentDateTime": "2019-02-02T00:00:00.000Z",
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "80540122222222"
+                        }
+                    },
+                    {
+                        "AccountId": "9b4aa9cc-a799-4bcd-a5d4-3f54dbf613aa",
+                        "Frequency": "EvryWorkgDay",
+                        "Reference": "Ref2",
+                        "FirstPaymentDateTime": "2018-02-01T00:00:00.000Z",
+                        "NextPaymentDateTime": "2019-02-04T00:00:00.000Z",
+                        "FinalPaymentDateTime": "2020-02-01T00:00:00.000Z",
+                        "StandingOrderStatusCode": "Active",
+                        "FirstPaymentAmount": {
+                            "Amount": "56.45",
+                            "Currency": "GBP"
+                        },
+                        "NextPaymentAmount": {
+                            "Amount": "26.48",
+                            "Currency": "GBP"
+                        },
+                        "FinalPaymentAmount": {
+                            "Amount": "78.33",
+                            "Currency": "GBP"
+                        },
+                        "CreditorAccount": {
+                            "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                            "Identification": "93134999999999",
+                            "Name": "Account name 2"
+                        }
+                    }
+                ]
+            },
+            {
+                "AccountId": "b21419e3-271b-4bb7-a077-62c407861178",
+                "Currency": "GBP",
+                "AccountType": "Personal",
+                "AccountSubType": "CurrentAccount",
+                "Description": "Personal",
+                "Nickname": "Savings Account - NatWest - John Smith",
+                "Account": [
+                    {
+                        "SchemeName": "UK.OBIE.SortCodeAccountNumber",
+                        "Identification": "50000012345605",
+                        "Name": "Savings Account - NatWest - John Smith"
+                    }
+                ],
+                "balances": [
+                    {
+                        "AccountId": "b21419e3-271b-4bb7-a077-62c407861178",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimAvailable",
+                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "Amount": {
+                            "Amount": "125680.92",
+                            "Currency": "GBP"
+                        }
+                    },
+                    {
+                        "AccountId": "b21419e3-271b-4bb7-a077-62c407861178",
+                        "CreditDebitIndicator": "Credit",
+                        "Type": "InterimBooked",
+                        "DateTime": "2018-10-01T02:59:00.000Z",
+                        "Amount": {
+                            "Amount": "125680.92",
+                            "Currency": "GBP"
+                        }
+                    }
+                ],
+                "StandingOrder": []
             }
         ]
     },

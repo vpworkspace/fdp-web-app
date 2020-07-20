@@ -40,6 +40,18 @@ class StackedColumnChart extends Component {
 			data: [
 			{
 				type: "stackedColumn",
+				name: "Ulster",
+				showInLegend: true,
+				yValueFormatString: "#,###",
+				dataPoints: [
+					{ label: "Jul", y: 10 },
+					{ label: "Aug", y: 20 },
+					{ label: "Sep", y: 10 },
+							
+				]
+			},
+			{
+				type: "stackedColumn",
 				name: "RBS",
 				showInLegend: true,
 				yValueFormatString: "#,###",
