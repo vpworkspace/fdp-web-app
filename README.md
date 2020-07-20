@@ -1,8 +1,9 @@
-openbanking-ui
+fdp-web-app
 ==============
 
-A collection AISP and PISP APIs.
+Flex Debt Planner (FDP) is a web app built to solve problems for customers/borrowers. Idea is to build app which can provide useful insights/tips via dashboard so that customer can take informed decisiion to manage term loans in difficult situation. 
 
+FDP was idea found by team "IBotInterface". This App will connect to FDP, Open Banking and Zoom APIs.
 Pre-requisites
 --------------
 
@@ -40,21 +41,3 @@ To run the application, use command:
 ``` nowrap
 npm start
 ```
-
-#### Connecting with mock-server
-
-Start the application in one instance with 'npm start' and in another instance, run the below command.
-
-``` nowrap
-npm run mock-server
-```
-
-This will stub the rest api calls and return the mock response.
-
-#### Connecting with sdk
-
-Download and setup the sdk code from the [url](https://github.com/HashApithon/openbanking-java-sdk)
-
-### Getting familiar with open banking related terms
-
-To get familiar with the terms, you can check the [glossary](https://bankofapis.com/glossary)
