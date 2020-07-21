@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.lerna_backup
+/packages/web-app/node_modules/
+/packages/ui-common/node_modules/
+/packages/ui-data/node_modules/
+/.idea/
+packages/ui-common/node_modules/.bin/npm-run-all
+packages/ui-common/node_modules/.bin/cpy.ps1
