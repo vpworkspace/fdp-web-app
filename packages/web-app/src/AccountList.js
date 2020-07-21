@@ -1,4 +1,15 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { useHistory } from "react-router-dom";
+import {
+    getAccountList,
+    getAccountById,
+    getAccountBalances,
+    getAccountTransactions,
+    getAccountDirectDebits,
+    getAccountProducts,
+    getAccountStandingOrders,
+} from '@openbanking/ui-data/lib/services/account-service'
 import { makeStyles } from '@material-ui/core/styles'
 import Paper from '@material-ui/core/Paper'
 import Grid from '@material-ui/core/Grid'
@@ -12,7 +23,7 @@ import RBSlogo from './RBS.jpg'
 import Ulsterlogo from './Ulster.jpg'
 import Barclayslogo from './Barclays.jpg'
 import Modifylogo from './Modify.jpg'
-import data from './account-data'
+import dataMock from './account-data'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -38,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
         paddingTop: '56.25%', // 16:9
     },
     avatar: {
-        margin: 10,
+        margin: 5,
         fontSize: '20px',
         display: 'flex',
         flexDirection: 'row',
@@ -77,6 +88,10 @@ const useStyles = makeStyles((theme) => ({
 const AccountList = () => {
     const classes = useStyles()
     const elements = ['one', 'two', 'three']
+    const history = useHistory();
+    var data = useSelector((state) => state.app.data)
+    if(!data){    data = dataMock     }
+    const dispatch = useDispatch()
     var customerName = ''
     var customerAccountType = ''
     var customerBalance = ''
@@ -85,12 +100,13 @@ const AccountList = () => {
     var balanceStyle = ''
     var editStyle = ''
     function myfunction() {
-        console.log('test')
+          history.push('/flexpay')
     }
 
     return (
         <div class="bigbox">
-            <h2 className="h2">Account Details</h2>
+            <h2 className="h2">Account Summary <button className="buttonLinks"
+            onClick={() => getAccountList(dispatch)} > </button></h2>
             <div className="dashboard">
                 <div className="container">
                     <div className={classes.root}>

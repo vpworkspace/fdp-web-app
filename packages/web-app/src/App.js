@@ -12,6 +12,7 @@ import Loader from './Loader'
 import Redirecting from './Redirecting'
 import PrivateRoute from './PrivateRoute'
 import Payments from './Payments'
+import Template from './Template'
 import './App.css'
 import Fdp from './Fdp'
 
@@ -20,7 +21,6 @@ import Fdp from './Fdp'
 const App = () => {
     const loading = useSelector((state) => state.common.loading)
     const error = useSelector((state) => state.common.error)
-
     return (
         <div className="app">
             {loading && <Loading />}
@@ -42,6 +42,11 @@ const App = () => {
                                 path="/aisp"
                                 render={() => <Fdp />}
                             />
+                             <PrivateRoute
+                                exact
+                                path="/flexpay"
+                                render={() => <Template/>}
+                             />
                             <PrivateRoute
                                 exact
                                 path="/pisp"
