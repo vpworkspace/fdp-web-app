@@ -11,8 +11,8 @@ import Dashboard from './Dashboard'
 import Loader from './Loader'
 import Redirecting from './Redirecting'
 import PrivateRoute from './PrivateRoute'
-import Payments from './Payments'
-import Template from './Template'
+import FlexPay from './FlexPay'
+import Reccomend from './Reccomend'
 import SchduledPayments from './SchduledPayments'
 import './App.css'
 import Fdp from './Fdp'
@@ -46,18 +46,13 @@ const App = () => {
                             <PrivateRoute
                                     exact
                                     path="/reccomend"
-                                    render={() => <Template/>}
+                                    render={() => <Reccomend/>}
                                  />
                              <PrivateRoute
                                 exact
                                 path="/illustrate"
-                                render={() => <Template/>}
+                                render={() => <FlexPay/>}
                              />
-                            <PrivateRoute
-                                exact
-                                path="/pisp"
-                                render={() => <Payments />}
-                            />
                             <Route path="*" component={NotFound} />
                         </Switch>
                     </BrowserRouter>
