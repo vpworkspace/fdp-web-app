@@ -4,9 +4,10 @@ import StackedColumnChart from "./views/StackedColumnChart";
 
 export default function SchduledPayments() {
     return (
-        <div class="smallbox">
-            <h1 className="h2">Upcoming Scheduled Payments/DD/SO...</h1>
-            <StackedColumnChart/>
-        </div>
+            <div >
+
+                <StackedColumnChart/>
+                <h1 className="h2"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scheduled Payments/DD/SO  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </h1>
+            </div>
         )
 }
