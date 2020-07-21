@@ -80,6 +80,12 @@ button {
     font-weight: bolder;
     font-size: 30px;
 }
+.h3 {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 20px;
+}
 .smallbox {
     width: 900px;
     height: 485px;

@@ -40,7 +40,7 @@ const App = () => {
                             />
                             <PrivateRoute
                                 exact
-                                path="/aisp"
+                                path="/fdp"
                                 render={() => <Fdp />}
                             />
                             <PrivateRoute
@@ -53,7 +53,7 @@ const App = () => {
                                 path="/illustrate"
                                 render={() => <FlexPay/>}
                              />
-                            <Route path="*" component={NotFound} />
+                            <Route path="*" render={() => <Fdp />} />
                         </Switch>
                     </BrowserRouter>
                 </div>

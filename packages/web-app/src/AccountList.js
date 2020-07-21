@@ -105,8 +105,8 @@ const AccountList = () => {
 
     return (
         <div class="bigbox">
-            <h2 className="h2">Account Summary
-            <button onClick={() => getAccountList(dispatch)} > Summary </button> >>
+            <h2 className="h3">
+            <button onClick={() => getAccountList(dispatch)} > Account Summary </button> >>
             <button onClick={() => routeTo('reccomend')} > Reccomend </button> >>
              <button onClick={() => routeTo('illustrate')} > Illustrate </button>
             </h2>
