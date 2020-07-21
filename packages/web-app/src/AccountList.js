@@ -99,14 +99,17 @@ const AccountList = () => {
     var brandLogo = ''
     var balanceStyle = ''
     var editStyle = ''
-    function myfunction() {
-          history.push('/flexpay')
+    function routeTo(route) {
+          history.push(route)
     }
 
     return (
         <div class="bigbox">
-            <h2 className="h2">Account Summary <button className="buttonLinks"
-            onClick={() => getAccountList(dispatch)} > </button></h2>
+            <h2 className="h2">Account Summary
+            <button onClick={() => getAccountList(dispatch)} > Summary </button> >>
+            <button onClick={() => routeTo('reccomend')} > Reccomend </button> >>
+             <button onClick={() => routeTo('illustrate')} > Illustrate </button>
+            </h2>
             <div className="dashboard">
                 <div className="container">
                     <div className={classes.root}>
@@ -265,7 +268,7 @@ const AccountList = () => {
                                                                                         Modifylogo
                                                                                     }
                                                                                     onClick={() =>
-                                                                                        myfunction()
+                                                                                        routeTo('/flexpay')
                                                                                     }
                                                                                 />
                                                                             </button>

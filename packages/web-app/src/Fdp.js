@@ -28,9 +28,6 @@ class Fdp extends Component {
                 <div className="Root">
                     <div className="rowC">
                         <AccountList />
-                        <div className="colC">
-                            <SchduledPayments />
-                        </div>
                     </div>
                 </div>
             </>

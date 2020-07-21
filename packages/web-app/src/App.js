@@ -13,6 +13,7 @@ import Redirecting from './Redirecting'
 import PrivateRoute from './PrivateRoute'
 import Payments from './Payments'
 import Template from './Template'
+import SchduledPayments from './SchduledPayments'
 import './App.css'
 import Fdp from './Fdp'
 
@@ -42,9 +43,14 @@ const App = () => {
                                 path="/aisp"
                                 render={() => <Fdp />}
                             />
+                            <PrivateRoute
+                                    exact
+                                    path="/reccomend"
+                                    render={() => <Template/>}
+                                 />
                              <PrivateRoute
                                 exact
-                                path="/flexpay"
+                                path="/illustrate"
                                 render={() => <Template/>}
                              />
                             <PrivateRoute
