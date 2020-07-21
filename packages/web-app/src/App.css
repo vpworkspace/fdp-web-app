@@ -86,6 +86,19 @@ button {
     font-weight: bolder;
     font-size: 20px;
 }
+.h4 {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.h5 {
+    text-align: center;
+    font-family: Calibri;
+    font-weight: bolder;
+    font-size: 30px;
+    color: red;
+}
 .smallbox {
     width: 900px;
     height: 485px;
@@ -99,8 +112,15 @@ button {
     background-color: white;
 }
 .bigbox {
-    width: 900px;
-    height: 890px;
     padding: 10px;
     background-color: white;
+}
+
+.pointer {
+    height: 6vmin;
+    pointer-events: none;
+}
+
+.Selected-link {
+    color: black;
 }

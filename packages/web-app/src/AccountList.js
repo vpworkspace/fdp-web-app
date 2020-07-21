@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { useHistory } from "react-router-dom";
+import { useHistory } from 'react-router-dom'
 import {
     getAccountList,
     getAccountById,
@@ -24,6 +24,7 @@ import Ulsterlogo from './Ulster.jpg'
 import Barclayslogo from './Barclays.jpg'
 import Modifylogo from './Modify.jpg'
 import dataMock from './account-data'
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -34,8 +35,8 @@ const useStyles = makeStyles((theme) => ({
         textAlign: 'center',
         color: theme.palette.text.primary,
         backgroundColor: 'white',
-        height: '760px',
-        width: '600px',
+        height: '680px',
+        width: '780px',
     },
     paper1: {
         padding: theme.spacing(10),
@@ -85,12 +86,16 @@ const useStyles = makeStyles((theme) => ({
     },
 }))
 
+var IsLoaded = false
+
 const AccountList = () => {
     const classes = useStyles()
     const elements = ['one', 'two', 'three']
-    const history = useHistory();
+    const history = useHistory()
     var data = useSelector((state) => state.app.data)
-    if(!data){    data = dataMock     }
+    if (!data) {
+        data = dataMock
+    }
     const dispatch = useDispatch()
     var customerName = ''
     var customerAccountType = ''
@@ -100,16 +105,29 @@ const AccountList = () => {
     var balanceStyle = ''
     var editStyle = ''
     function routeTo(route) {
-          history.push(route)
+        history.push(route)
     }
+
+    // Similar to componentDidMount and componentDidUpdate:
+    useEffect(() => {
+        if (!IsLoaded) {
+            //alert('Hello');
+            debugger
+            getAccountList(dispatch)
+            IsLoaded = true
+        }
+    })
 
     return (
         <div class="bigbox">
-            <h2 className="h3">
-            <button onClick={() => getAccountList(dispatch)} > Account Summary </button> >>
-            <button onClick={() => routeTo('reccomend')} > Reccomend </button> >>
-             <button onClick={() => routeTo('illustrate')} > Illustrate </button>
-            </h2>
+            <h1 class="h4">
+                {' '}
+                <Link to="/fdp">
+                    <span class="Selected-link">Account Details</span>
+                </Link>{' '}
+                &nbsp;>&nbsp;<Link to="/reccomend">Recommendation</Link>{' '}
+                &nbsp;>&nbsp; <Link to="/illustrate">Illustration</Link>{' '}
+            </h1>
             <div className="dashboard">
                 <div className="container">
                     <div className={classes.root}>
@@ -257,10 +275,11 @@ const AccountList = () => {
                                                                                     }
                                                                                 />
                                                                             </Typography>
-                                                                            <button
+                                                                            <Link
                                                                                 className={
                                                                                     editStyle
                                                                                 }
+                                                                                to="/reccomend"
                                                                             >
                                                                                 <img
                                                                                     alt="Modify"
@@ -268,10 +287,12 @@ const AccountList = () => {
                                                                                         Modifylogo
                                                                                     }
                                                                                     onClick={() =>
-                                                                                        routeTo('/flexpay')
+                                                                                        routeTo(
+                                                                                            '/flexpay'
+                                                                                        )
                                                                                     }
                                                                                 />
-                                                                            </button>
+                                                                            </Link>
                                                                         </GridList>
                                                                         <Divider></Divider>
                                                                     </React.Fragment>
