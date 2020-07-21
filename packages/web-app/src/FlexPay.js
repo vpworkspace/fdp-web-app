@@ -89,7 +89,7 @@ export class FlexPay extends Component {
                             }}
                         />
                         <TextField
-                            label="Interest Rate"
+                            label="Annual Percentage Rate"
                             defaultValue={'4%'}
                             margin="normal"
                             InputProps={{
