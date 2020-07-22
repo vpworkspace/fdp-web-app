@@ -15,18 +15,23 @@ export class FlexPay extends Component {
 
         this.state = {
             holiday: 0,
+            term: 0,
             newEmi: '850.00 £',
             newTerm: '54',
             apr: '4.10 %',
         }
     }
     CalculateHoliday = () => {
+        this.setState({ holiday: '3' })
+        this.setState({ term: '0' })
         this.setState({ newEmi: '875.66 £' })
         this.setState({ newTerm: '54' })
         this.setState({ apr: '4.15 %' })
         console.log('test')
     }
     CalculateTerm = () => {
+        this.setState({ holiday: '0' })
+        this.setState({ term: '3' })
         this.setState({ newEmi: '899.99 £' })
         this.setState({ newTerm: '57' })
         this.setState({ apr: '4.25 %' })
@@ -77,6 +82,7 @@ export class FlexPay extends Component {
                                 name: 'paymentholiday',
                                 id: 'payment-holiday',
                             }}
+                            value={this.state.holiday}
                         >
                             <option value={0}></option>
                             <option value={1}>1 month</option>
@@ -136,6 +142,7 @@ export class FlexPay extends Component {
                                 name: 'extendTerm',
                                 id: 'extend-Term',
                             }}
+                            value={this.state.term}
                         >
                             <option value={0}></option>
                             <option value={1}>1 month</option>
