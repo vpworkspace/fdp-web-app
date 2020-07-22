@@ -1,73 +1,41 @@
-import React, { Component } from 'react';
-import Dialog from '@material-ui/core/Dialog';
-import AppBar from '@material-ui/core/AppBar';
-import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
-import { List, ListItem, ListItemText } from '@material-ui/core/';
-import Button from '@material-ui/core/Button';
+import React, { Component } from 'react'
+import Dialog from '@material-ui/core/Dialog'
+import AppBar from '@material-ui/core/AppBar'
+import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles'
+import { List, ListItem, ListItemText } from '@material-ui/core/'
+import Button from '@material-ui/core/Button'
 
 export class Confirm extends Component {
-  continue = e => {
-    e.preventDefault();
-    // PROCESS FORM //
-    this.props.nextStep();
-  };
+    continue = (e) => {
+        e.preventDefault()
+        // PROCESS FORM //
+        this.props.nextStep()
+    }
 
-  back = e => {
-    e.preventDefault();
-    this.props.prevStep();
-  };
+    back = (e) => {
+        e.preventDefault()
+        this.props.prevStep()
+    }
 
-  render() {
-    const {
-      values: { mortgageholiday}
-    } = this.props;
-    return (
-      <MuiThemeProvider>
-        <>
-          <Dialog
-            open
-            fullWidth
-            maxWidth='sm'
-          >
-            <AppBar title="Confirm User Data" />
-            <List>
-              <ListItem>
-                <ListItemText primary="New Loan Value" secondary={'120000 £'} />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="New Loan Interest" secondary={'4.2%'} />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="New Term Period" secondary={63} />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="Loan Holiday" secondary={mortgageholiday} />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="Old Emi" secondary={'1057 £'} />
-              </ListItem>
-              <ListItem>
-                <ListItemText primary="New Emi" secondary={'1063 £'} />
-              </ListItem>
-            </List>
-            <br />
-
-            <Button
-              color="secondary"
-              variant="contained"
-              onClick={this.back}
-            >Back</Button>
-
-            <Button
-              color="primary"
-              variant="contained"
-              onClick={this.continue}
-            >Confirm & Continue</Button>
-          </Dialog>
-        </>
-      </MuiThemeProvider>
-    );
-  }
+    render() {
+        return (
+            <MuiThemeProvider>
+                <>
+                    <Dialog open fullWidth maxWidth="sm">
+                        <AppBar title="Confirm" />
+                        <p className="h2">
+                            Your request has been submitted to the Bank! For
+                            further assitance, click{' '}
+                            <a href="https://rbs-bookings.qudini.com/booking-widget/storebooker/4V5MKBU0X7A/192?">
+                                here
+                            </a>{' '}
+                            for video banking appointment.
+                        </p>
+                    </Dialog>
+                </>
+            </MuiThemeProvider>
+        )
+    }
 }
 
-export default Confirm;
+export default Confirm

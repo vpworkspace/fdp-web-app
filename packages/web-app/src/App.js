@@ -11,11 +11,11 @@ import Dashboard from './Dashboard'
 import Loader from './Loader'
 import Redirecting from './Redirecting'
 import PrivateRoute from './PrivateRoute'
-import FlexPay from './FlexPay'
 import Reccomend from './Reccomend'
 import SchduledPayments from './SchduledPayments'
 import './App.css'
 import Fdp from './Fdp'
+import UserForm from './UserForm'
 
 // views
 
@@ -44,15 +44,15 @@ const App = () => {
                                 render={() => <Fdp />}
                             />
                             <PrivateRoute
-                                    exact
-                                    path="/reccomend"
-                                    render={() => <Reccomend/>}
-                                 />
-                             <PrivateRoute
+                                exact
+                                path="/reccomend"
+                                render={() => <Reccomend />}
+                            />
+                            <PrivateRoute
                                 exact
                                 path="/illustrate"
-                                render={() => <FlexPay/>}
-                             />
+                                render={() => <UserForm />}
+                            />
                             <Route path="*" render={() => <Fdp />} />
                         </Switch>
                     </BrowserRouter>

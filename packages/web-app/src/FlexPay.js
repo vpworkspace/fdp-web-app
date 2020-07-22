@@ -10,6 +10,10 @@ import InputLabel from '@material-ui/core/InputLabel'
 import Select from '@material-ui/core/Select'
 
 export class FlexPay extends Component {
+    continue = (e) => {
+        e.preventDefault()
+        this.props.nextStep()
+    }
     constructor(props) {
         super(props)
 
@@ -181,7 +185,11 @@ export class FlexPay extends Component {
                     </div>
                 </div>
                 <div className="rowC">
-                    <Button color="primary" variant="contained">
+                    <Button
+                        color="primary"
+                        variant="contained"
+                        onClick={this.continue}
+                    >
                         Confirm
                     </Button>
                 </div>
