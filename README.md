@@ -4,6 +4,13 @@ fdp-web-app
 Flex Debt Planner (FDP) is a web app built to solve problems for customers/borrowers. Idea is to build app which can provide useful insights/tips via dashboard so that customer can take informed decisiion to manage term loans in difficult situation. 
 
 FDP was idea found by team "IBotInterface". This App will connect to FDP, Open Banking and Zoom APIs.
+
+## Architecture
+![](https://github.com/vpworkspace/fdp-web-app/blob/master/fdp-architecture.png)
+
+
+
+
 Pre-requisites
 --------------
 
