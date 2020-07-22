@@ -10,6 +10,28 @@ import InputLabel from '@material-ui/core/InputLabel'
 import Select from '@material-ui/core/Select'
 
 export class FlexPay extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            holiday: 0,
+            newEmi: '850.00 £',
+            newTerm: '54',
+            apr: '4.10 %',
+        }
+    }
+    CalculateHoliday = () => {
+        this.setState({ newEmi: '875.66 £' })
+        this.setState({ newTerm: '54' })
+        this.setState({ apr: '4.15 %' })
+        console.log('test')
+    }
+    CalculateTerm = () => {
+        this.setState({ newEmi: '899.99 £' })
+        this.setState({ newTerm: '57' })
+        this.setState({ apr: '4.25 %' })
+        console.log('test')
+    }
     render() {
         const { values, handleChange } = this.props
         return (
@@ -50,7 +72,7 @@ export class FlexPay extends Component {
                         </InputLabel>
                         <Select
                             native
-                            onChange={handleChange}
+                            onChange={this.CalculateHoliday}
                             inputProps={{
                                 name: 'paymentholiday',
                                 id: 'payment-holiday',
@@ -60,6 +82,9 @@ export class FlexPay extends Component {
                             <option value={1}>1 month</option>
                             <option value={2}>2 months</option>
                             <option value={3}>3 months</option>
+                            <option value={4}>4 month</option>
+                            <option value={5}>5 months</option>
+                            <option value={6}>6 months</option>
                         </Select>
                         <TextField
                             label=" Current Monthly Installments"
@@ -90,7 +115,8 @@ export class FlexPay extends Component {
                         />
                         <TextField
                             label="Annual Percentage Rate"
-                            defaultValue={'4%'}
+                            defaultValue={this.state.apr}
+                            value={this.state.apr}
                             margin="normal"
                             InputProps={{
                                 readOnly: true,
@@ -105,7 +131,7 @@ export class FlexPay extends Component {
                         </InputLabel>
                         <Select
                             native
-                            onChange={handleChange}
+                            onChange={this.CalculateTerm}
                             inputProps={{
                                 name: 'extendTerm',
                                 id: 'extend-Term',
@@ -115,11 +141,15 @@ export class FlexPay extends Component {
                             <option value={1}>1 month</option>
                             <option value={2}>2 months</option>
                             <option value={3}>3 months</option>
+                            <option value={4}>4 month</option>
+                            <option value={5}>5 months</option>
+                            <option value={6}>6 months</option>
                         </Select>
                         <TextField
                             color="red"
                             label=" New Monthly Installments"
-                            defaultValue={'850.00 £'}
+                            defaultValue={this.state.newEmi}
+                            value={this.state.newEmi}
                             margin="normal"
                             InputProps={{
                                 readOnly: true,
@@ -129,7 +159,8 @@ export class FlexPay extends Component {
                         <TextField
                             color="red"
                             label=" New Terms(in months)"
-                            defaultValue={54}
+                            defaultValue={this.state.newTerm}
+                            value={this.state.newTerm}
                             margin="normal"
                             InputProps={{
                                 readOnly: true,

@@ -12,7 +12,8 @@ class Reccomend extends Component {
                     <div class="colC">
                         <h1 class="h4">
                             {' '}
-                            <Link to="/fdp">Account Details</Link> &nbsp;>&nbsp;
+                            <Link to="/fdp">Account Details </Link>{' '}
+                            &nbsp;>&nbsp;
                             <Link to="/reccomend">
                                 <span class="Selected-link">
                                     Recommendation

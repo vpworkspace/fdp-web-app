@@ -33,7 +33,7 @@ Create an enviroment file (.env) file in /packages/web-app folder and add an ent
 You can also add an entry for PORT (optional) if facing any issue with port while running the application. This will run your app on the specified port number if added otherwise will point to the default port. 
 
 ``` nowrap
-PORT=4001
+PORT=8888
 REACT_APP_ACCOUNT_ID=11111111
 ```
 To run the application, use command:
