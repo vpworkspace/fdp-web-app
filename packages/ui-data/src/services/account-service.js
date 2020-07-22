@@ -4,7 +4,7 @@ import { setAccountId } from '../actions/account'
 
 //accounts api's
 export function getAccountList(dispatch) {
-    createRequest(dispatch, '/aisp/accounts', 'GET', null, {}, function (
+    createRequest(dispatch, '/fdp/accounts', 'GET', null, {}, function (
         response
     ) {
         //callback placeholder where one or multiple actions can be dispatched
